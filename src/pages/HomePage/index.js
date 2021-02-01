@@ -5,7 +5,7 @@ import { Photo } from '../../components/atoms/Logo'
 
 export default function HomePage() {
     return (
-        <View>
+        <View style={styles.container}>
             <Logo/>
             <Photo/>
         </View>
@@ -13,5 +13,8 @@ export default function HomePage() {
 }
 
 const styles = StyleSheet.create({
-
+    container: {
+        flex: 1,
+        backgroundColor: 'grey',
+    }
 })
