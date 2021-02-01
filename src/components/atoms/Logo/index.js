@@ -5,19 +5,19 @@ import {images} from '../../../assets'
 export default function Logo() {
     return (
         <View>
-            <Text>Logo</Text>
+            <Text></Text>
         </View>
     )
 }
 
 export const Photo = () => {
     return (
-        <Image 
-        source={images.img_Logo}
-        />
+        <View style={{padding:10, alignItems:'center'}}>
+            <Image source={images.img_Logo} style={styles} />
+        </View>
     );
     }
 
 const styles = StyleSheet.create({
-
+    
 })
